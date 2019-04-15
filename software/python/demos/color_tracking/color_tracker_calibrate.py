@@ -38,7 +38,7 @@ def get_arguments():
 	args = vars(ap.parse_args())
 
 	if not args['filter'].upper() in ['RGB', 'HSV']:
-		ap.error("Please speciy a correct filter.")
+		ap.error("Please specify a correct filter.")
 
 	return args
 
